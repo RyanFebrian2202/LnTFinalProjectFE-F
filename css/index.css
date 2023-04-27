@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --white: #f5f5f5;
+    --grey: #a09b9b;
+    --dark-blue: #09172d;
+    --neon: #1ce7c8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+main #landing{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(228, 228, 228, 0.25), rgba(9, 23, 45, 0.25)),url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 10px;
+}
+
+.landing-header{
+    width: 1200px;
+}
+
+main .landing-header h1{
+    font-family: "Great Vibes";
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    overflow: hidden;
+}
+
+.landing-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    /* background-color: rgb(86, 68, 2); */
+    border-radius: 50px;
+    border: solid;
+    border-color: white;
+}
+
+.landing-button a{
+    font-family: "Poppins";
+    color: white;
+}
+
+#pudding-fest{
+    font-family: "Poppins";
+    background-image: linear-gradient(#5353be,#3d3d95);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+}
+
+.judul h1{
+    overflow: hidden;
+    color: var(--white);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#pudding-fest .photo{
+    width: 2000px;
+    height: 300px;
+}
+
+.photo img{
+    border: solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    border-color: var(--white);
+}
+
+#pudding-fest .desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: large;
+    text-align: center;
+}
+
+.desc p{
+    color: var(--white);
+}
+
+#about-us{
+    font-family: "Poppins";
+    background-image: linear-gradient(#3d3d95,#1f1f65);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: center;
+}
+
+#about-us .photo{
+    width: 2300px;
+    height: 300px;
+}
+
+#about-us .desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: large;
+    text-align: center;
+}
