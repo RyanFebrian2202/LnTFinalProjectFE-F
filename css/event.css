@@ -110,3 +110,78 @@ form button, .btn, .btn-primary{
     align-items: center;
     width: 200px;
 }
+
+#timeline{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    overflow: hidden;
+}
+
+#timeline .middle-line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 73%;
+    transform: translateY(-50%);
+    background: #d9d9d9;
+}
+
+.box {
+    width: 17%;
+    position: relative;
+    min-height: 220px;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.box .date {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #fff;
+    border: 2px solid #d9d9d9;
+    overflow: hidden;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.date p {
+    font-family: "Poppins";
+    font-size: small;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.box-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-content{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content p{
+    font-family: "Poppins";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
